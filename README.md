@@ -8,7 +8,7 @@ Try following commands to initialise-\
 nvm install v16.19.0 // to download the required version of node.\
 nvm use v16.19.0 //to use the required version of node\
 npm install // to download/update the required dependencies\
-npm run dev // to run the server at port 3000\
+npm run dev // to run the server at port 3000
 
 ## Functions 
  createPost(string memory _content,string memory _imageURL)\
@@ -22,7 +22,7 @@ npm run dev // to run the server at port 3000\
  getPostById(uint256 _postId) returns (Post memory, address[] memory, uint256 id, address[] memory, string[] memory)\
  getPostCount(address user) returns (uint256)\
  censorPost(address postAuthor, uint256 postId)\
- uncensorPost(address postAuthor, uint256 postId)\
+ uncensorPost(address postAuthor, uint256 postId)
 
  ## Events
  NewPost(postId,author,content,timestamp,banCounter,isCensored,imageURL,score)\
@@ -32,5 +32,5 @@ npm run dev // to run the server at port 3000\
  DeletePost(postId, postAuthor, authorScore)\
  EditPost(postId,author,content,timestamp,imageURL)\
  CensoredPost(moderator, postAuthor, postld, banCounter, isCensored)\
- UncensoredPost(address moderator, address postAuthor, uint256 postld, uint256 banCounter, bool isCensored)\
+ UncensoredPost(address moderator, address postAuthor, uint256 postld, uint256 banCounter, bool isCensored)
 
