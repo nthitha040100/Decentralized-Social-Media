@@ -10,8 +10,6 @@ nvm use v16.19.0 //to use the required version of node\
 npm install // to download/update the required dependencies\
 npm run dev // to run the server at port 3000\
 
-About Smart Contract functions-
-
 ## Functions 
  createPost(string memory _content,string memory _imageURL)\
  likePost(address _postAuthor, uint256 _postId)\
